@@ -20,7 +20,7 @@ let narniaCurrency: Currency = false;
 // This should fix the type error on Lines 28 and 30.
 
 function outputCountryData(country: string, data: number | string) {
-    console.log(`The data for ${country} is: ${data}`);
+  console.log(`The data for ${country} is: ${data}`);
 }
 
 outputCountryData("Italy", 60_317_116);
